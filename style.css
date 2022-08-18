@@ -1,0 +1,111 @@
+html, body {
+    background: linear-gradient(to top right, rgba(131,252,211,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.nome-blog {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 70px;
+    background-color: hsl(300,80%,90%);
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px black;
+    font-family: 'Sofia','Georgia','serif';
+    font-size: 3vw;
+}
+
+.info {
+    background-color: rgb(161, 242, 242);
+    border: 2px solid black;
+    border-radius: 5%;
+    margin: 20px auto;
+    width: 20%;
+
+}
+
+.nome-drink {
+    font-size: 3vw;
+    text-align: center;
+}
+
+.info-post {
+    display:flex;
+    flex-direction: column;
+}
+
+.info-post > p {
+    padding: 0;
+    margin: 0;
+}
+
+.img {
+    display: grid;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
+    border: 5px solid black;
+    
+}
+
+.instrucoes {
+    display:flex;
+    gap: 4px;
+}
+
+.titulo {
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin: 0 auto;
+    background-color: hsl(34, 78%, 86%);
+    border-bottom: 2px solid black;
+}
+
+.ingredientes {
+    margin: 20px 0px;
+    background-color: antiquewhite;
+    width: 60%;
+    border: 2px solid black;
+}
+
+.preparo {
+    margin: 20px 0px;
+    background-color: antiquewhite;
+    width: 60%;
+    border: 2px solid black;
+
+}
+
+.nav-botoes {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-botoes > a {
+    margin: 0 auto;
+    padding: 10px;
+    border: 2px solid black;
+    font-size:34px;
+    font-family:Arial;
+    width:50px;
+    height:50px;
+    color: rgba(46, 45, 45, 0.995);
+    font-weight:bold;
+    border-radius: 50%;
+    text-shadow: 1px 1px 0px #2f6627;
+    background:hsl(308, 100%, 78%);
+    text-align: center;
+}
+
+.nav-botoes > a:hover {
+    background:hsl(308, 100%, 50%);
+    transition: 0.8s;
+}
